@@ -1,0 +1,28 @@
+{
+  "name": "md-script",
+  "version": "1.0.0",
+  "description": "MarkDown scripting engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/felixmc/MarkDown-Script.git"
+  },
+  "keywords": [
+    "markdown",
+    "scripting"
+  ],
+  "author": "Felix Milea-Ciobanu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixmc/MarkDown-Script/issues"
+  },
+  "homepage": "https://github.com/felixmc/MarkDown-Script#readme",
+  "dependencies": {
+    "markdown": "^0.5.0",
+    "minimalist": "^1.0.0",
+    "tokenizer": "^1.1.2"
+  }
+}
