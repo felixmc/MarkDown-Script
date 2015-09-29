@@ -1,7 +1,7 @@
 # MarkDown-Script
-MarkDownScript, MDScript for short, is a lightweight scripting layer that intends to make the task of writing and maintaining MarkDown documents easier on the author. It does so by providing features such as comments and variables.
+MarkDownScript, MDScript for short, is a lightweight scripting layer that intends to make the task of writing and maintaining MarkDown documents easier for the author. It does so by providing features such as comments and variables.
 
-MDScript is **not** a view engine.
+MDScript is **not** intended to be a view engine.
 
 MDScript is under development, so syntax and interface are subject to change.
 
@@ -16,7 +16,7 @@ Say we have the follow MDScript file (found in `samples/src/sample1.mds`):
 @version: 2.3
 @author: Jane Doe
 
-# AppSoft v@{var}
+# AppSoft v@{version}
 __by @{author}__
 
 @// finish this paragraph
@@ -67,7 +67,8 @@ Coming soon
 
 
 ### Variables
-Variables can be defined anywhere within a document, on a new line as follows:
+Variables can be defined anywhere within a document, but each variable must be defined on a new line.
+The format `@{varname}` can be used to substitute variables in MarkDown documents.
 
 ```
 @author: Jane Doe
