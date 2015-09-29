@@ -1,0 +1,8 @@
+@version: 2.3
+@author: Jane Doe
+
+# AppSoft v@{version}
+__by @{author}__
+
+@// finish this paragraph
+Lorem impsum dolores sit amet..
